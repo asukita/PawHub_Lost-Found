@@ -53,6 +53,7 @@ public class SplashScreenActivity extends SherlockActivity {
 		MenuInflater inflater = getSupportMenuInflater(); 
 		inflater.inflate(R.menu.activity_itemlist, menu); 
 		getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#B71C4E")));
+		getSupportActionBar().setDisplayShowTitleEnabled(false);
 		getSupportActionBar().hide();
 		return true;
 	}

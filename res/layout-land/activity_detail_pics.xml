@@ -56,7 +56,7 @@
                                 android:fontFamily="open-sans"
                                 android:text="@string/userName"
                                 android:textColor="#656565"
-                                android:textSize="13sp"
+                                android:textSize="15sp"
                                 android:textStyle="bold" />
 
                             <EditText
@@ -73,7 +73,7 @@
                                 android:lineSpacingExtra="0dp"
                                 android:text="@string/userMsgLarge"
                                 android:textColor="#656565"
-                                android:textSize="12sp"
+                                android:textSize="14sp"
                                 android:typeface="sans" >
                             </EditText>
                         </LinearLayout>
@@ -89,7 +89,7 @@
                             android:fontFamily="open-sans"
                             android:text="@string/postTime"
                             android:textColor="#B71C4E"
-                            android:textSize="12sp" />
+                            android:textSize="14sp" />
                     </RelativeLayout>
                 </LinearLayout>
 
@@ -123,6 +123,7 @@
                             android:fontFamily="open-sans"
                             android:text="@string/report_home"
                             android:textColor="#FFFFFF"
+                            android:textSize="15sp"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -139,12 +140,12 @@
 
                     <ImageView
                         android:id="@+id/imageArrowDownDetailP"
-                        android:layout_width="18dp"
-                        android:layout_height="13dp"
+                        android:layout_width="11dp"
+                        android:layout_height="6dp"
                         android:layout_alignRight="@+id/linearTypePostDetailP"
                         android:layout_alignTop="@+id/linearTypePostDetailP"
                         android:layout_marginRight="10dp"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginTop="13dp"
                         android:contentDescription="@string/report"
                         android:src="@drawable/arrow_down" />
                 </RelativeLayout>
@@ -213,28 +214,32 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="27dp"
-                android:layout_margin="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="1dp"
                 android:contentDescription="@string/pinIt"
                 android:src="@drawable/marcar" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="6dp"
                 android:text="@string/pinIt"
                 android:textColor="#FFFFFF" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="27dp"
-                android:layout_margin="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="1dp"
                 android:contentDescription="@string/share"
                 android:src="@drawable/compartir_blue" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="6dp"
                 android:text="@string/share"
                 android:textColor="#FFFFFF" />
         </TableRow>
@@ -248,14 +253,16 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="27dp"
-                android:layout_margin="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="-1dp"
                 android:contentDescription="@string/checked"
                 android:src="@drawable/checked" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="6dp"
                 android:text="@string/checked"
                 android:textColor="#FFFFFF" />
         </TableRow>

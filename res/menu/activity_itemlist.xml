@@ -3,21 +3,21 @@
     
      <item
 	        android:id="@+id/edit"
-	        android:icon="@drawable/home_ico"
+	        android:icon="@drawable/lapiz"
 	        android:title="@string/edit"
 	        android:showAsAction="ifRoom" >
 	    </item>
 	    <item
 	        android:id="@+id/take_picture"
 	        android:title="@string/takePicture"
-	        android:icon="@drawable/home_ico"
+	        android:icon="@drawable/cam"
 	        android:showAsAction="ifRoom" > 
 	    </item>
 	    <item 
 	        android:id="@+id/alerts"
 	        android:title="@string/alertsMenu"
 	        android:icon="@drawable/home_ico"
-	        android:showAsAction="ifRoom" > 
+	        android:showAsAction="never" > 
 	    </item>
 
 </menu>
